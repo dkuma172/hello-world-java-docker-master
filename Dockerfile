@@ -5,7 +5,7 @@ MAINTAINER Codaming
 LABEL BASE_IMAGE="ubuntu"
 LABEL JAVA_VERSION="11"
 
-RUN yum update && yum install -y openjdk-11-jdk
+RUN apt-get update && apt-get install -y openjdk-11-jdk
 
 WORKDIR /docker/java/
 COPY target/*.jar /docker/java/application.jar
