@@ -11,4 +11,4 @@ WORKDIR /docker/java/
 COPY target/*.jar /docker/java/application.jar
 
 EXPOSE 8080
-CMD ["java", "-jar", "hello-world-docker-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "application.jar"]
