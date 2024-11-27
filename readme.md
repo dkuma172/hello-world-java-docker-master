@@ -1,9 +1,9 @@
 ## How to Build
 ```
-docker build -t hello-world-java-docker .
+sudo docker build -t hello-world-java-docker .
 ```  
 
 ## How to Run
 ```
-docker run -it hello-world-java-docker
+ sudo docker run -p 8080:8080 -it -d hello-world-java-docker
 ```

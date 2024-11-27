@@ -16,9 +16,7 @@ public class IndexController {
         logger.debug("request served");
 
         return new HashMap<>() {{
-            put("success", true);
-            put("Hello", "World");
-            put("new-message", "adding a new msg");
+            put("Hello World from Codaming");
         }};
     }
 }
