@@ -16,6 +16,7 @@ WORKDIR /docker/java/
 #copy build file to image
 COPY target/*.jar /docker/java/application.jar
 
+#port 8080
 EXPOSE 8080
 
 #execute during container 
