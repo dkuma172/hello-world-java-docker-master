@@ -16,7 +16,7 @@ public class IndexController {
         logger.debug("request served");
 
         return new HashMap<>() {{
-            put("Hello", "World");
+            put("Hello", "World (Java)");
         }};
     }
 }
